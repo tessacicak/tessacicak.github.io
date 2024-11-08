@@ -16,13 +16,13 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/tessacv.pdf", title "CV"}
+  - {title: "CV"}
   - {title: "About"}
   - {title: "Workshops"}
   - {title: "Ongoing Projects"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:cicak001@umn.edu"}
+  - {title: Contact, icon: envelope, url: "mailto:cicak001@umn.edu"}
   #- {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
 
